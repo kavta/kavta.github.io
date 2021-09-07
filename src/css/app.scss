@@ -1,0 +1,49 @@
+// app global css in SCSS form
+.circle{
+    border-radius: 50%;
+    &.c-xs{
+      height:30px;
+      width:30px;
+    }
+    &.c-sm{
+      height: 50px;
+      width: 50px;
+    }
+    &.c-md{
+      height:80px;
+      width:80px;
+    }
+    &.c-lg{
+      height: 178px;
+      width: 178px;
+    }
+    &.c-big{
+      height:300px;
+      width:300px;
+    }
+  }
+  
+  .curve ,%curve{
+    &-xs{
+      border-radius: 4px;
+    }
+    &-sm{
+      border-radius: 8px;
+      border: white 2px solid;
+    }
+    &-md{
+      border-radius: 16px;
+      border: white 2px solid;
+    }
+    &-lg{
+      border-radius: 24px;
+    }
+  }
+  .text-border
+{
+     border-right:5px dotted #aa3744;
+}
+.hover
+{
+cursor:pointer;
+}
