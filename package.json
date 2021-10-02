@@ -4,14 +4,14 @@
   "description": "Portfolio of Kabita Maharjan",
   "productName": "kabita Maharjan",
   "author": "kabitamaharjan10 <kabitamaharjan10@gmail.com>",
-  "homepage":"http://kavta.github.io/kabitamaharjan.github.io",
+  "homepage": "http://kavta.github.io/kabitamaharjan.github.io",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "build":"quasar build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
